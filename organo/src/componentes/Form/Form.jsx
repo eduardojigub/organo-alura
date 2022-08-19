@@ -4,7 +4,7 @@ import TextInput from "../InputText/TextInput";
 import "./Form.css";
 import { useState } from "react";
 
-const Form = () => {
+const Form = (props) => {
   const times = [
     "Programação",
     "Front-End",
@@ -21,7 +21,12 @@ const Form = () => {
   const [time, setTime] = useState("");
 
   const onSaveForm = (e) => {
-    console.log("Form was submitted", nome, cargo, imagem, time);
+    props.onFormSubmit({
+      nome,
+      cargo,
+      imagem,
+      time,
+    });
     e.preventDefault();
   };
 
