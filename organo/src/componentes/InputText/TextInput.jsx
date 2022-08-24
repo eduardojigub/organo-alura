@@ -10,7 +10,7 @@ const TextInput = (props) => {
       <label>{props.label}</label>
       <input
         onChange={onType}
-        value={props.valor}
+        value={props.value}
         required={props.obrigatorio}
         placeholder={props.placeholder}
       />

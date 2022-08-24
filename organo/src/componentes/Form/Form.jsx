@@ -11,13 +11,17 @@ const Form = (props) => {
   const [time, setTime] = useState("");
 
   const onSaveForm = (e) => {
+    e.preventDefault();
     props.onFormSubmit({
       nome,
       cargo,
       imagem,
       time,
     });
-    e.preventDefault();
+    setNome("");
+    setCargo("");
+    setImagem("");
+    setTime("");
   };
 
   return (
