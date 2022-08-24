@@ -46,7 +46,6 @@ function App() {
   const [users, setUsers] = useState([]);
 
   const addedUser = (user) => {
-    console.log(user);
     setUsers([...users, user]);
   };
 
