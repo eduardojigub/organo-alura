@@ -20,5 +20,5 @@ Project developed while studying at Alura website
 
 ## GIF from the project:
 <p align="center">
-  <img  src="" alt="React App"/>
+  <img  src="http://organo-alura-tawny.vercel.app/" alt="React App"/>
 </p>
