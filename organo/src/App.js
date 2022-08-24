@@ -2,6 +2,7 @@ import { useState } from "react";
 import Banner from "./componentes/Banner/Banner";
 import Form from "./componentes/Form/Form";
 import Time from "./componentes/Time/Time";
+import Footer from "./componentes/Footer/Footer";
 
 function App() {
   const times = [
@@ -66,6 +67,7 @@ function App() {
           users={users.filter((user) => user.time === time.nome)}
         />
       ))}
+      <Footer />
     </div>
   );
 }
