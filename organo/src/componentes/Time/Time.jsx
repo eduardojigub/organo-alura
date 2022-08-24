@@ -12,6 +12,7 @@ const Time = (props) => {
         <div className="colaboradores">
           {props.users.map((user) => (
             <Colaborador
+              corDeFundo={props.corPrimaria}
               key={user.nome}
               nome={user.nome}
               cargo={user.cargo}
