@@ -20,5 +20,6 @@ Project developed while studying at Alura website
 
 ## GIF from the project:
 <p align="center">
-  <img  src="" alt="React App"/>
+  <img  src="https://user-images.githubusercontent.com/47367373/186520346-db9ee162-d5b9-44d7-b34d-2899de9d1bea.gif" alt="React App"/>
 </p>
+
