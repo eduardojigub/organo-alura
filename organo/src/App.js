@@ -63,6 +63,7 @@ function App() {
           nome={time.nome}
           corPrimaria={time.corPrimaria}
           corSecundaria={time.corSecundaria}
+          users={users}
         />
       ))}
     </div>
