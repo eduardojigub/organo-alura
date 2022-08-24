@@ -5,16 +5,6 @@ import "./Form.css";
 import { useState } from "react";
 
 const Form = (props) => {
-  const times = [
-    "Programação",
-    "Front-End",
-    "Data Science",
-    "Devops",
-    "Ux e Design",
-    "Mobile",
-    "Inovação e Gestão",
-  ];
-
   const [nome, setNome] = useState("");
   const [cargo, setCargo] = useState("");
   const [imagem, setImagem] = useState("");
@@ -59,7 +49,7 @@ const Form = (props) => {
           onChange={(valor) => setTime(valor)}
           obrigatorio={true}
           label="Time"
-          itens={times}
+          itens={props.times}
         />
         <Button>Criar Card</Button>
       </form>

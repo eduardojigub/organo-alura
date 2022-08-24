@@ -52,7 +52,10 @@ function App() {
   return (
     <div>
       <Banner />
-      <Form onFormSubmit={(user) => addedUser(user)} />
+      <Form
+        times={times.map((time) => time.nome)}
+        onFormSubmit={(user) => addedUser(user)}
+      />
 
       {times.map((time) => (
         <Time
