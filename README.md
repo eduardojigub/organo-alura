@@ -16,9 +16,9 @@ Project developed while studying at Alura website
 
 1. Download all files and using `npm install` and  then use `npm start`; 
 
-2. Access through the Vercel link: 
+2. Access through the Vercel link: http://organo-alura-tawny.vercel.app/
 
 ## GIF from the project:
 <p align="center">
-  <img  src="http://organo-alura-tawny.vercel.app/" alt="React App"/>
+  <img  src="" alt="React App"/>
 </p>
